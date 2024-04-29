@@ -23,6 +23,7 @@ Notebook Summery
    
    global_average_pooling1d_3  (None, 16)                0         
    (GlobalAveragePooling1D)                                       
+
    dense_6 (Dense)             (None, 24)                408
    
    dense_7 (Dense)             (None, 1)                 25
