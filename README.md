@@ -17,7 +17,7 @@ Notebook Summery
 5. Data Processing
 6. Design Model
    _________________________________________________________________
-   Layer (type)                Output Shape              Param #   
+   Layer (type)                Output Shape              Param   
    =================================================================
    embedding_3 (Embedding)     (None, 100, 16)           160000    
    
