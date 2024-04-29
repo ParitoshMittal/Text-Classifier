@@ -16,25 +16,23 @@ Notebook Summery
 4. Load Data
 5. Data Processing
 6. Design Model
-  _________________________________________________________________
+   _________________________________________________________________
    Layer (type)                Output Shape              Param #   
-  =================================================================
+   =================================================================
    embedding_3 (Embedding)     (None, 100, 16)           160000    
-                                                                   
+   
    global_average_pooling1d_3  (None, 16)                0         
-    (GlobalAveragePooling1D)                                       
-                                                                   
-   dense_6 (Dense)             (None, 24)                408       
-                                                                   
-   dense_7 (Dense)             (None, 1)                 25        
-                                                                   
-  =================================================================
-  Total params: 160433 (626.69 KB)
-  Trainable params: 160433 (626.69 KB)
-  Non-trainable params: 0 (0.00 Byte)
-  _________________________________________________________________
-7. Train Model
+   (GlobalAveragePooling1D)                                       
+   dense_6 (Dense)             (None, 24)                408
+   
+   dense_7 (Dense)             (None, 1)                 25
+   =================================================================
+   Total params: 160433 (626.69 KB)
+   Trainable params: 160433 (626.69 KB)
+   Non-trainable params: 0 (0.00 Byte)
+   _________________________________________________________________
+8. Train Model
    For 30 Epochs
-8. Virtualization Data
-9. Save Model
-10. Test Model
+9. Virtualization Data
+10. Save Model
+11. Test Model
